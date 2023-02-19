@@ -22,5 +22,5 @@ jobs:
           
     - name: Build the Docker image
       run: |
-          docker build ./samplewebapp --file samplewebapp/Dockerfile --tag JebiTomi/samplewebapp:latest
-          docker push JebiTomi/samplewebapp:latest
+          docker build ./samplewebapp --file samplewebapp/Dockerfile --tag jebitomi/samplewebapp:latest
+          docker push jebitomi/samplewebapp:latest
